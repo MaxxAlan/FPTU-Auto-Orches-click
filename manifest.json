@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "FAP Auto-Clicker (Simple)",
+  "version": "1.0.0",
+  "description": "Tự động đổi lớp FAP. Gom form và click ngầm (fetch) mỗi X giây.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://fap.fpt.edu.vn/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://fap.fpt.edu.vn/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

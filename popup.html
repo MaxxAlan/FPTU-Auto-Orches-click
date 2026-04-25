@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAP Auto-Clicker</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">⚡</div>
+    <div>
+      <div class="title">FAP Auto-Clicker</div>
+      <div class="subtitle">Free Version (Background Fetch)</div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="instruction">
+      1. Chọn lớp đích trên FAP.<br>
+      2. Chọn tốc độ bấm.<br>
+      3. Bấm BẮT ĐẦU (có thể mở tab khác).
+    </div>
+
+    <div class="form-group">
+      <label>Tốc độ Auto (Giây)</label>
+      <select id="intervalSelect">
+        <option value="3000">3 Giây (Nhanh)</option>
+        <option value="5000" selected>5 Giây (Khuyên dùng)</option>
+        <option value="8000">8 Giây</option>
+        <option value="10000">10 Giây</option>
+        <option value="15000">15 Giây (An toàn)</option>
+      </select>
+    </div>
+
+    <button id="startBtn" class="btn btn-primary">▶ BẮT ĐẦU</button>
+    <button id="stopBtn" class="btn btn-danger hidden">⏹ DỪNG LẠI</button>
+  </div>
+
+  <div class="status-panel">
+    <div class="status-label">Trạng thái:</div>
+    <div id="statusText" class="status-text">Đang chờ...</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
