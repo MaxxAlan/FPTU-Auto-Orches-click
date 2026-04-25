@@ -10,15 +10,15 @@
 
   Tăng tỉ lệ thành công khi tranh slot chuyển lớp bằng cách loại bỏ độ trễ của con người và tự động hóa các thao tác lặp lại.
 
-🛠 Hướng dẫn sử dụng (Chuẩn 4 Bước)
+# 🛠 Hướng dẫn sử dụng (Chuẩn 4 Bước)
 
-Bước 1: Chuẩn bị môi trường
+## Bước 1: Chuẩn bị môi trường
 
     Sử dụng trình duyệt Google Chrome.
 
     Truy cập vào hệ thống FAP và đăng nhập sẵn tài khoản sinh viên.
 
-Bước 2: Thiết lập thao tác sẵn
+## Bước 2: Thiết lập thao tác sẵn
 
     Truy cập vào mục Move Out Class.
 
@@ -26,7 +26,7 @@ Bước 2: Thiết lập thao tác sẵn
 
   Quan trọng: Nhấn thử nút SAVE một lần để đảm bảo form hoạt động bình thường và không bị lỗi kết nối.
 
-Bước 3: Cấu hình Tool
+## Bước 3: Cấu hình Tool
 
     Mở giao diện công cụ.
 
@@ -34,7 +34,7 @@ Bước 3: Cấu hình Tool
 
     Nhấn START.
 
-Bước 4: Chờ đợi & Tự động hóa
+## Bước 4: Chờ đợi & Tự động hóa
 
 
 
